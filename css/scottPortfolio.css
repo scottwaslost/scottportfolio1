@@ -31,8 +31,11 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* star light */
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-primary1 {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -41,7 +44,8 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-primary1:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -63,6 +67,13 @@ hr.star-primary {
 hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
+}
+hr.star-primary1 {
+  border-color: white;
+}
+hr.star-primary1:after {
+  background-color: #2C3E50;
+  color: white;
 }
 .img-centered {
   margin: 0 auto;
@@ -187,6 +198,10 @@ section h2 {
 }
 section.success {
   background: #337ab7;
+  color: white;
+}
+section.success1 {
+  background: #2C3E50;
   color: white;
 }
 @media (max-width: 767px) {
