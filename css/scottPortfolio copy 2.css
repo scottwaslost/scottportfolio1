@@ -21,15 +21,6 @@ a.active {
   color: #15dbff;
   outline: none;
 }
-h3 {
-  font-size: 30px;
-}
-h4 {
-  font-size: 25px;
-}
-h5 {
-  font-size: 20px;
-}
 h1,
 h2,
 h3,
@@ -201,7 +192,7 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3.3em;
+  font-size: 3em;
 }
 section.success {
   background: #337ab7;
