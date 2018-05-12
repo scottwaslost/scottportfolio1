@@ -349,6 +349,14 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+.btn-outline2:hover,
+.btn-outline2:focus,
+.btn-outline2:active,
+.btn-outline2.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
 .btn-primary {
   color: white;
   background-color: #2C3E50;
