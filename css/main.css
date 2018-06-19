@@ -112,7 +112,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
-    color: #010507;
+    color: #ffffff;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -121,6 +121,14 @@ h1, h2, h3, h4, h5, h6,
 h2-2, .h2-2 {
     font-family: "montserrat-medium", sans-serif;
     color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h2-3, .h2-3 {
+    font-family: "montserrat-medium", sans-serif;
+    color: #010507;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -2435,7 +2443,7 @@ html.no-csstransitions .home-content__main {
 
 .service-icon2 {
     float: left;
-    color: #000000;
+    color: #ffffff;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
